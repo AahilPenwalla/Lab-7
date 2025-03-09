@@ -52,12 +52,13 @@ h2 {
     border-collapse: collapse;
     background: rgba(0, 0, 0, 0.7);
     box-shadow: 0 0 15px #FFD700;
+    border: 3px solid #FFD700; /* Added table border */
     border-radius: 8px;
     overflow: hidden;
 }
 
 #planets th, #planets td {
-    border: 2px solid #FFD700;
+    border: 2px solid #FFD700; /* Borders around table cells */
     padding: 12px;
     text-align: center;
 }
