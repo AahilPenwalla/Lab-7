@@ -20,6 +20,7 @@ h1 {
     font-weight: bold;
     color: #FFD700;
     text-shadow: 2px 2px 5px rgba(255, 215, 0, 0.7);
+    letter-spacing: 2px;
 }
 
 .intro {
@@ -43,6 +44,7 @@ h2 {
     color: #FFA500;
     text-transform: uppercase;
     margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(255, 165, 0, 0.8);
 }
 
 /* Table Styling */
@@ -52,12 +54,13 @@ h2 {
     border-collapse: collapse;
     background: rgba(0, 0, 0, 0.7);
     box-shadow: 0 0 15px #FFD700;
+    border: 3px solid #FFD700; /* Solid border around the entire table */
     border-radius: 8px;
     overflow: hidden;
 }
 
 #planets th, #planets td {
-    border: 2px solid #FFD700;
+    border: 3px solid #FFD700; /* Solid borders between rows and columns */
     padding: 12px;
     text-align: center;
 }
@@ -66,6 +69,8 @@ h2 {
     background-color: #FFA500;
     color: black;
     font-size: 1.3em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 #planets td {
@@ -76,23 +81,10 @@ h2 {
     background-color: rgba(255, 215, 0, 0.2);
 }
 
-#planets img {
-    width: 80px;
-    height: 80px;
-    border-radius: 10px;
-    border: 2px solid #FFD700;
-    transition: transform 0.3s ease-in-out;
+#planets tr:hover {
+    background-color: rgba(255, 215, 0, 0.3);
+    transition: background 0.3s ease-in-out;
 }
 
-#planets img:hover {
-    transform: scale(1.2);
-}
-
-/* Footer Styling */
-footer {
-    margin-top: 30px;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.7);
-    color: #FFD700;
-    font-style: italic;
-}
+/* Image Styling */
+#
