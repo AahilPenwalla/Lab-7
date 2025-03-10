@@ -1,0 +1,111 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: url('../images/space_background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-bottom: 3px solid #4DD0E1; /* Neon Cyan for a space glow effect */
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #4DD0E1; /* Cosmic Cyan */
+    text-shadow: 2px 2px 10px rgba(77, 208, 225, 0.7);
+    letter-spacing: 2px;
+}
+
+.intro {
+    font-style: italic;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Section Styling */
+section {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(77, 208, 225, 0.8);
+}
+
+h2 {
+    font-size: 2em;
+    color: #FF6F00; /* Deep Sunset Orange */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 10px rgba(255, 111, 0, 0.8);
+}
+
+/* Table Styling */
+#planets {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 15px #4DD0E1; /* Neon Cyan Glow */
+    border: 3px solid #4DD0E1; /* Cosmic Cyan Border */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#planets th, #planets td {
+    border: 3px solid #4DD0E1; /* Cyan Borders */
+    padding: 12px;
+    text-align: center;
+}
+
+#planets th {
+    background-color: #FF6F00; /* Deep Sunset Orange */
+    color: black;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#planets td {
+    font-size: 1.1em;
+}
+
+#planets tr:nth-child(even) {
+    background-color: rgba(77, 208, 225, 0.2); /* Light Cyan Tint */
+}
+
+#planets tr:hover {
+    background-color: rgba(77, 208, 225, 0.3);
+    transition: background 0.3s ease-in-out;
+}
+
+/* Image Styling */
+#planets img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid #4DD0E1; /* Neon Cyan */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#planets img:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 15px rgba(77, 208, 225, 0.9);
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #4DD0E1; /* Cyan for a space effect */
+    font-style: italic;
+    text-shadow: 1px 1px 5px rgba(77, 208, 225, 0.7);
+}
